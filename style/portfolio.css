@@ -1,0 +1,141 @@
+
+.open-sans-body {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      padding: 0;
+      margin: 0;
+  }
+  /* --- shared style--------- */
+  header{
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-left: 50px;
+
+  }
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.btn-primary{
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+}
+/* ---Nav style---- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+nav ul{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 50px;
+    list-style: none;
+    
+}
+
+li a{
+    text-decoration: none;
+}
+
+/*--------- banner style-------- */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+}
+.banner img{
+    width: 580px;
+ padding-right: 90px;
+}
+.banner-content{
+    width: 580px;
+}
+.banner-content h1{
+    color: #181818;
+    font-size: 85px;
+    margin: 0;
+}
+.banner-content h3{
+    font-size: 45px;
+    margin: 0;
+}
+.banner-content p{
+    font-size: 18px;
+}
+.btn-contact{
+    color: #FD6E0A;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border:2px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    margin-left: 5px;
+}
+/* -----Nav style end----- */
+
+/* ------About section start ---------- */
+.about-section{ 
+    background-color:#FFF8F3;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:1140px;
+    height:550px;
+    padding:130px 156px; 
+    margin: 130px 230px;
+
+}
+.about-content{
+    width: 827px;
+    height: 288px;
+    border: 2px solid black;
+    padding:20px 20px 0 20px;
+    text-align: center;
+    background-color: #fff;
+    justify-content: center 
+}
+
+.about-content h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.about-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.about-bottom p, h5{
+    margin: 0;
+}
+/* ------About section end ---------- */
